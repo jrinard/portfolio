@@ -19,7 +19,7 @@ This version contains no known issues.
 
 ## Link to site on Git Hub Pages
 
-https://github.com/jrinard/portfolio
+https://jrinard.github.io/portfolio
 
 ## Support and contact details
 
