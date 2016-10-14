@@ -51,15 +51,18 @@ img{
   border-radius: 4px;
 }
 
+hr {
+}
+
 #top {
-  background: linear-gradient(#888, #222);
+  background: linear-gradient(#618CBA, #3E6894, #222);
   background-color: #20737c;
   height: 200px;
 }
 
 #content{
   background-color: #444;
-  height: 600px;
+  height: 650px;
   border: 1px solid #555;
   padding-left: 30px;
   color: #eee;
@@ -117,6 +120,9 @@ img{
 
 .grey {
   color: #B0B0B0;
+}
+.light-grey {
+  color: #C7C7C7;
 }
 
 

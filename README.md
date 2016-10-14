@@ -11,15 +11,20 @@ This is an informational website showcasing websites as a portfolio
 ## Setup/Installation Requirements
 
 * Runs on modern web browsers
-* _Edited on Atom Code Editor_
+* Edited on Atom Code Editor
 
 ## Known Bugs
 
 This version contains no known issues.
 
+## Link to site on Git Hub Pages
+
+https://github.com/jrinard/portfolio
+
 ## Support and contact details
 
 * Github for Joshua Rinard: JRinard
+* Email: jrinard@hotmail.com
 
 ## Technologies Used
 
