@@ -12,7 +12,7 @@
 
 
 body {
-  background-color: #eee;
+  background-color: #E3E3E3;
 
 }
 
@@ -59,12 +59,11 @@ img{
 
 #content{
   background-color: #444;
-  height: 500px;
+  height: 600px;
   border: 1px solid #555;
   padding-left: 30px;
   color: #eee;
 }
-
 
 
 #projects{
@@ -114,6 +113,10 @@ img{
 
 .well {
   margin:10px 0px;
+}
+
+.grey {
+  color: #B0B0B0;
 }
 
 
