@@ -17,26 +17,45 @@ title {
 
 
 body {
-  background-color: #E3E3E3;
+  background-color: #d9d9d9;
 
 }
 
 a {
+  color:#4C9BD4;
+  font-weight: bold;
+}
+a:visited {
   color:#148ADE;
   font-weight: bold;
 }
-
+a:hover {
+  color:#999;
+  font-weight: bold;
+}
+a:active {
+  color:#fff;
+  font-weight: bold;
+}
 
 h1{
   color: #eee;
+  text-shadow: 2px 2px #000;
 }
 
 h2 {
   color: #555;
+  border-bottom: solid thin #888;
 }
 
 h3{
-  color: #eee;
+  color: #e2e2e2;
+  text-shadow: 2px 2px #000;
+}
+.h3 {
+  margin-top: -10px;
+  color: #4C9BD4;
+  text-shadow: 5px 5px 20px #000;
 }
 
 h5 {
@@ -55,14 +74,20 @@ img{
   box-shadow: 8px 8px 6px #000;
   border-radius: 4px;
 }
+#top {
+  background-image: url("../images/texture.jpg");
+  /*background: linear-gradient(#618CBA, #3E6894, #222);*/
+  background-color: #3E6894;
+  height: 200px;
+  background-size: 100%;
 
-hr {
 }
 
-#top {
-  background: linear-gradient(#618CBA, #3E6894, #222);
-  background-color: #20737c;
-  height: 200px;
+
+.jumbotron {
+    color:#eee;
+    margin:10px 0px;
+    background-size: 100%;
 }
 
 #content{
@@ -82,7 +107,6 @@ hr {
 
 #projects{
   background-color: #eee;
-  width: 400px;
   padding: 0px 25px 10px 25px;
   margin:10px 20px 20px 20px;
   border: 8px solid #888;
@@ -114,10 +138,7 @@ hr {
   padding: 10px;
 }
 
-.jumbotron {
-  color:#eee;
-    margin:10px 0px;
-}
+
 .grey {
   color: #B0B0B0;
 }
@@ -129,6 +150,14 @@ hr {
   float:right;
   margin-left: 10px;
 }
+
+.contact-info {
+  margin-top: -35px;
+  margin-left: 0px;
+  padding-top:10px;
+}
+
+
 .well {
   margin:10px 0px;
   border-radius: 8px;
@@ -157,4 +186,10 @@ hr {
 .well-sm2 {
   padding: 9px;
   border-radius: 3px;
+}
+
+@media screen and (max-width:480px) {
+ img {
+    display: none;
+  }
 }
