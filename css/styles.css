@@ -1,10 +1,7 @@
 /*CSS for Portfolio*/
 /*Written Joshua Rinard*/
 /*github: jrinard*/
-
-
 * {
-
   margin: 0;
   padding: 0;
   font-family: arial, helvetica, sans-serif;
@@ -91,7 +88,6 @@ ol{
   border: 1px solid #555;
   padding: 0 30px 0 30px;
   color: #eee;
-
 }
 .main{
   background-color: #444;
